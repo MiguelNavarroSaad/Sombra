@@ -3,6 +3,8 @@
 *En memoria de Alejandra Torres Landa López*
 [Gráfica solar](https://github.com/atorresl/representacion)
 
+<img src="Sombra.jpg" width="270" height="602">
+
 **Observaciones**
 
 - Deslizar dedo en la mitad superior para cambiar la latitud.
