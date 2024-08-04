@@ -28,7 +28,7 @@ float angulo = 0.0;
 PFont tipoLetra, resultado;
 
 void setup() {
-  size(1000, 1000, P3D); // 500, 500                                                              // 3D para invertir el eje Y
+  size(500, 500, P3D); // 1000, 1000                                                              // 3D para invertir el eje Y
   background(0);
 
   lambda = -21.01;
@@ -75,9 +75,9 @@ void draw() {
     rosa (0, 0);
   popMatrix();
 
-  scale(1.75);
-  if (lambda <= 0) translate(6*width/16, 9*height/32); // translate(5*width/8, 15*height/32);
-  else translate(3*width/16, 9*height/32); // translate(3*width/8, 15*height/32); 
+//  scale(1.75);
+  if (lambda <= 0) translate(5*width/8, 15*height/32); // translate(6*width/16, 9*height/32);
+  else  translate(3*width/8, 15*height/32); // translate(3*width/16, 9*height/32);
   stroke(255);
   rotateX(radians(180));                                                                          // sistema coordenado 'normal'
 
